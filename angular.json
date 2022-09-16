@@ -100,6 +100,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "calendar:build:production",
+            "firebaseProject": "calendar-f9e41",
+            "firebaseHostingSite": "calendar-f9e41"
+          }
         }
       }
     }

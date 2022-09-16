@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "calendar-f9e41": {
+      "hosting": {
+        "calendar": [
+          "calendar-f9e41"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "calendar-f9e41"
+  }
+}
